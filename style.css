@@ -1,3 +1,17 @@
 div{
     border: 1px red solid;
 }
+/* CSS styles for SM */
+@media (min-width: 768px)   {
+    #bioImage   {
+        height: 200px;
+        width: 250px;
+        margin-right: 20px;
+        float: left;
+    }
+}
+
+/* CSS styles for MD */
+@media (min-width: 980px)   {
+    
+}  
