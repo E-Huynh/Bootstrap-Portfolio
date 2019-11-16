@@ -9,6 +9,11 @@ div{
         margin-right: 20px;
         float: left;
     }
+    footer  {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
 }
 
 /* CSS styles for MD */
