@@ -26,6 +26,7 @@ body    {
 a{
     padding: 0px 15px;
     color: rgb(126, 123, 123);
+    text-decoration: none;
 }
 .sectionTitle   {
     color: #4aaaa5;
