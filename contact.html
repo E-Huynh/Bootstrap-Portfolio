@@ -28,12 +28,17 @@
     <div class="container">
       <div class="row my-3">
         <div class="content col-sm-12">
-          <h2 class="sectionTitle mt-3">About me</h2>
+          <h2 class="sectionTitle mt-3">Contact</h2>
           <hr>
-          <img id="bioImage" class="img-fluid mb-2" src="assets/IMG_0845.JPG" alt="Image of Erik Huynh">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quaerat quibusdam ea amet quae porro iste, maxime eos a tempore suscipit pariatur doloribus est iusto quas fuga! Reiciendis recusandae optio soluta, laborum accusamus mollitia doloribus ut id, perferendis quae est qui perspiciatis vel saepe possimus veritatis corrupti. Modi, blanditiis quam.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quaerat quibusdam ea amet quae porro iste, maxime eos a tempore suscipit pariatur doloribus est iusto quas fuga! Reiciendis recusandae optio soluta, laborum accusamus mollitia doloribus ut id, perferendis quae est qui perspiciatis vel saepe possimus veritatis corrupti. Modi, blanditiis quam.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quaerat quibusdam ea amet quae porro iste, maxime eos a tempore suscipit pariatur doloribus est iusto quas fuga! Reiciendis recusandae optio soluta, laborum accusamus mollitia doloribus ut id, perferendis quae est qui perspiciatis vel saepe possimus veritatis corrupti. Modi, blanditiis quam.</p>        
+          <form action="get" class="formStyle">
+            <label for="firstName">First Name:</label>
+                <input type="text" name="firstNAME" id="firstName" placeholder="John Smith" required>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            <label for="message">Message:</label>
+                <textarea id="textBox" rows="10" cols="50"></textarea>
+            <a href="#" class="button">Submit</a>
+        </form>    
         </div>
       </div>
     </div>

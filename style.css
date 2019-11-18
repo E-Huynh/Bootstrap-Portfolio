@@ -1,4 +1,4 @@
-/* div, header{
+/* label, input, textarea{
     border: 1px red solid;
 } */
 
@@ -38,6 +38,9 @@ hr,
 .content  {
     border: 1px solid #dddddd;
     background: white;
+}
+.content    {
+    padding-bottom: 20px;
 }
 footer{
     color: white;
@@ -97,3 +100,25 @@ footer{
         max-width: 1136px;
     }
 }  
+
+/* Contact.html */
+.formStyle label  {
+    display: block;
+    padding-top: 10px;
+    color: #b4b3b3;
+}
+input {
+    width: 100%;
+    height: 20px;
+    border: 1px #b4b3b3 solid;
+}
+#textBox    {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px #b4b3b3 solid;
+}
+.button    {
+    background: #4aaaa5;
+    padding: 7.5px 20px;
+    color: #ffffff;
+}
