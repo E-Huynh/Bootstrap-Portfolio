@@ -1,8 +1,11 @@
-div, header{
+/* div, header{
     border: 1px red solid;
-}
+} */
 
 /* CSS Styles */
+body    {
+    color: rgb(126, 123, 123);
+}
 .logo{
     background: #4aaaa5;
     color: white;
@@ -11,15 +14,29 @@ div, header{
     padding: 15px 0px;
 }
 .links  {
-    color: rgb(126, 123, 123, 0.25);
     padding: 10px 0px;
+    border-bottom: 1px solid #dddddd;
 }
 a{
     padding: 0px 15px;
+    color: rgb(126, 123, 123);
 }
-
 .sectionTitle   {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+hr,
+.content  {
+    border: 1px solid #dddddd;
+}
+footer{
+    color: white;
+    font-size: 0.5em;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: 15px 0px;
 }
 
 /* CSS styles for SM */
