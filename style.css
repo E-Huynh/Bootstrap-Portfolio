@@ -7,6 +7,9 @@ body    {
     color: rgb(126, 123, 123);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("assets/cheap_diagonal_fabric.png");
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .logo{
     background: #4aaaa5;
@@ -41,6 +44,7 @@ hr,
 }
 .content    {
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 footer{
     color: white;
@@ -48,6 +52,7 @@ footer{
     background: #666666;
     border-top: 8px solid #4aaaa5;
     padding: 15px 0px;
+    margin-top: auto;
 }
 
 /* CSS styles for SM */
@@ -59,9 +64,9 @@ footer{
         float: left;
     }
     footer  {
-        position: fixed;
+        /* position: fixed;
         bottom: 0px;
-        width: 100%;
+        width: 100%; */
     }
     header   {
         display: flex;
