@@ -15,6 +15,9 @@ body    {
     font-weight: bold;
     padding: 15px 0px;
 }
+.logoLink   {
+    color: white;
+}
 .links  {
     padding: 10px 0px;
     border-bottom: 1px solid #dddddd;
