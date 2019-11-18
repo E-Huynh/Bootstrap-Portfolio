@@ -2,6 +2,26 @@ div, header{
     border: 1px red solid;
 }
 
+/* CSS Styles */
+.logo{
+    background: #4aaaa5;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.links  {
+    color: rgb(126, 123, 123, 0.25);
+    padding: 10px 0px;
+}
+a{
+    padding: 0px 15px;
+}
+
+.sectionTitle   {
+    color: #4aaaa5;
+}
+
 /* CSS styles for SM */
 @media (min-width: 768px)   {
     #bioImage   {
@@ -34,7 +54,6 @@ div, header{
     .logo{
         display: flex;
         align-items: center;
-        background: blue;
         height: 100%;
     }
 }
