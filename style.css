@@ -94,7 +94,7 @@ footer{
     }
 }
 
-/* CSS styles for MD */
+/* CSS styles for MD - XL */
 @media (min-width: 992px)   {
     .navContainer{
         max-width: 958px;
@@ -106,7 +106,7 @@ footer{
     }
 }  
 
-/* Contact.html */
+/* Contact.html Styles */
 .formStyle label  {
     display: block;
     padding-top: 10px;
