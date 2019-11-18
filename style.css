@@ -31,6 +31,9 @@ a{
     color: rgb(126, 123, 123);
     text-decoration: none;
 }
+.container  {
+    margin-bottom: 70px;
+}
 .sectionTitle   {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -44,7 +47,6 @@ hr,
 }
 .content    {
     padding-bottom: 20px;
-    margin-bottom: 50px;
 }
 footer{
     color: white;
@@ -53,6 +55,9 @@ footer{
     border-top: 8px solid #4aaaa5;
     padding: 15px 0px;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* CSS styles for SM */
@@ -62,11 +67,6 @@ footer{
         width: 250px;
         margin-right: 20px;
         float: left;
-    }
-    footer  {
-        /* position: fixed;
-        bottom: 0px;
-        width: 100%; */
     }
     header   {
         display: flex;
