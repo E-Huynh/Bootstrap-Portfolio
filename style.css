@@ -40,8 +40,13 @@ div, header{
 }
 
 /* CSS styles for MD */
-@media (min-width: 980px)   {
+@media (min-width: 992px)   {
     .navContainer{
         max-width: 958px;
+    }
+}  
+@media (min-width: 1200px)   {
+    .navContainer{
+        max-width: 1136px;
     }
 }  
