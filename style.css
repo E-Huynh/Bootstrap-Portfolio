@@ -59,9 +59,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.projectTitle   {
-    width:149.33px;;
-}
 
 /* CSS styles for SM */
 @media (min-width: 768px)   {
@@ -97,6 +94,9 @@ footer{
     }
     div.projectTitle   {
         width: 209.33px;
+    }
+    p.paraText   {
+        margin: 10px 0px;
     }
 }
 
@@ -150,8 +150,11 @@ input {
     position: absolute;
     bottom: 0px;
     margin-bottom: 10px;
-    width:149.33px;;
+    width:149.33px;
 }
 .projects{
     position: relative;
+}
+.paraText   {
+    margin-bottom: 0px;
 }
