@@ -59,6 +59,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.projectTitle   {
+    width:149.33px;;
+}
 
 /* CSS styles for SM */
 @media (min-width: 768px)   {
@@ -92,6 +95,9 @@ footer{
         border: initial;
         padding: 20px; 
     }
+    div.projectTitle   {
+        width: 209.33px;
+    }
 }
 
 /* CSS styles for MD - XL */
@@ -99,10 +105,16 @@ footer{
     .navContainer{
         max-width: 958px;
     }
+    div.projectTitle   {
+        width: 289.33px;
+    }
 }  
 @media (min-width: 1200px)   {
     .navContainer{
         max-width: 1136px;
+    }
+    div.projectTitle   {
+        width: 349.33px;
     }
 }  
 
@@ -135,10 +147,10 @@ input {
 .projectTitle   {
     background: teal;
     color: white;
-    width: 87.5%;
     position: absolute;
     bottom: 0px;
     margin-bottom: 10px;
+    width:149.33px;;
 }
 .projects{
     position: relative;
