@@ -28,8 +28,6 @@ Below list some of the functionality written into this portfolio:
 
    **Portfolio**
 - The projects displayed here respond to the viewport width.
-
-**Note to self** Replace the classes as so: projects **col-xs-4 col-sm-6 col-md-4**
 - At <= 575px, a single project spans the entire width of the content div.
 - At 576px - 780px, projects are displayed two to a row.
 - At 780+px, projects are displayed 3 to a row.
