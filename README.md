@@ -31,6 +31,7 @@ Below list some of the functionality written into this portfolio:
 - At <= 575px, a single project spans the entire width of the content div.
 - At 576px - 780px, projects are displayed two to a row.
 - At 780+px, projects are displayed 3 to a row.
+
    **Contact**
 - Input fields scale to the width of the content div.
 - Placeholder text in input form
